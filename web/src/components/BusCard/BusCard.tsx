@@ -1,6 +1,6 @@
 import React from 'react';
-import { BusService } from '../../utilities/types';
 import { CardDetails, CardHeader, DueText, StyledCard } from "./BusCardStyled";
+import {BusService} from "../../utilities/types";
 
 interface Props {
     bus: BusService;
