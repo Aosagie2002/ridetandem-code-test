@@ -19,6 +19,9 @@ API - Node.js TypeScript application accessible at http://localhost:3000. Genera
 - The user should only see routes that run on the current day of the week
 - The app should match the design outlined in the mockup below
 
+### DEMO
+https://www.loom.com/share/ae4021b3e0c94eadb9bfe73a84d8c97c?sid=5616b786-7422-4fef-9ad8-d2f0223c1c5e
+
 ### Run This Project
 
 To run this project, follow these steps:
