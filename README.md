@@ -26,21 +26,29 @@ To run this project, follow these steps:
 1. Make sure you are using Node.js version 20.9.0. You can manage Node.js versions using nvm:
    ```sh
    nvm use 20.9.0
-### Navigate to the web directory
+2. Navigate to the web directory
+```sh
 cd web
 yarn install
+```
 
-### Navigate to the API directory
+4. Navigate to the API directory
+```sh
 cd ../api
 yarn install
+```
 
-### Run the web development server
+6. Run the web development server
+```sh
 cd ../web
 yarn dev
+```
 
-### Run the API development server
+8. Run the API development server
+```sh
 cd ../api
 yarn dev
+```
 
 Additionally, what are some other ways you might want to improve or extend this application? This could include changes to the user experience, front-end and/or back-end. Feel free to leave comments or implement these changes if you have time.
 
