@@ -1,30 +1,6 @@
 # Tandem Technical Test
 
-## Run This Project
-
-To run this project, follow these steps:
-
-1. Make sure you are using Node.js version 20.9.0. You can manage Node.js versions using nvm:
-   ```sh
-   nvm use 20.9.0
-# Navigate to the web directory
-cd web
-yarn install
-
-# Navigate to the API directory
-cd ../api
-yarn install
-
-# Run the web development server
-cd ../web
-yarn dev
-
-# Run the API development server
-cd ../api
-yarn dev
-
 Welcome!
-
 In this test, you will be improving a web application that displays live arrival times for a bus stop. Read the requirements below and make changes to the front-end and back-end of the application that you feel best meet all the requirements. You should spend no more than 2-3 hours in total. Use any tools you need to complete the task (e.g. Google, StackOverflow, NPM packages).
 
 Once you are finished working, please email tech@ridetandem.co with your finished project or a link to a Git repository where the code can be viewed.
@@ -42,6 +18,29 @@ API - Node.js TypeScript application accessible at http://localhost:3000. Genera
 - The app should automatically refetch the bus times every 10 seconds
 - The user should only see routes that run on the current day of the week
 - The app should match the design outlined in the mockup below
+
+### Run This Project
+
+To run this project, follow these steps:
+
+1. Make sure you are using Node.js version 20.9.0. You can manage Node.js versions using nvm:
+   ```sh
+   nvm use 20.9.0
+### Navigate to the web directory
+cd web
+yarn install
+
+### Navigate to the API directory
+cd ../api
+yarn install
+
+### Run the web development server
+cd ../web
+yarn dev
+
+### Run the API development server
+cd ../api
+yarn dev
 
 Additionally, what are some other ways you might want to improve or extend this application? This could include changes to the user experience, front-end and/or back-end. Feel free to leave comments or implement these changes if you have time.
 
